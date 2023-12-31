@@ -47,11 +47,6 @@ if __name__ == "__main__":
         "Preprocess audio to extract emotional numpy (for emotional vits).")
     args = parser.parse_args()
     
-    
-    args.datasets_root = '/Users/a58/Workspace/code/MockingBird/data'
-    args.dataset = 'aidatatang_200zh'
-    args.n_processes = 8
-    
 
     # Process the arguments
     if not hasattr(args, "out_dir"):
